@@ -1,0 +1,271 @@
+/* ===========================
+   FALCON SERVICES
+   Professional Theme
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+    background:#f8f9fa;
+    line-height:1.7;
+}
+
+/* Navbar */
+
+.navbar{
+    transition:.3s;
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:700;
+}
+
+.nav-link{
+    font-size:17px;
+    margin-left:10px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+/* Hero Section */
+
+.hero{
+    background:linear-gradient(rgba(0,70,170,.8),rgba(0,70,170,.8)),
+    url("../images/hero.jpg") center/cover;
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:700;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.hero img{
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+/* Buttons */
+
+.btn-warning{
+    font-weight:600;
+}
+
+.btn-success{
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-success:hover{
+    transform:translateY(-3px);
+}
+
+.btn-warning:hover{
+    transform:translateY(-3px);
+}
+
+/* Section Title */
+
+section h2{
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    transition:.4s;
+    border-radius:15px;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.card-body i{
+    transition:.4s;
+}
+
+.card:hover i{
+    transform:scale(1.15);
+    color:#0d6efd;
+}
+/* ===========================
+   ABOUT SECTION
+=========================== */
+
+section img{
+    border-radius:15px;
+    transition:.4s;
+}
+
+section img:hover{
+    transform:scale(1.03);
+}
+
+/* ===========================
+   REVIEWS
+=========================== */
+
+.card p{
+    color:#555;
+}
+
+.card h6{
+    color:#0d6efd;
+    font-weight:bold;
+}
+
+/* ===========================
+   FAQ
+=========================== */
+
+.accordion-button{
+    font-weight:600;
+}
+
+.accordion-button:not(.collapsed){
+    background:#0d6efd;
+    color:#fff;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#111;
+}
+
+footer h4{
+    font-weight:bold;
+}
+
+footer p{
+    margin-bottom:5px;
+}
+
+/* ===========================
+   FLOATING BUTTONS
+=========================== */
+
+.position-fixed{
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.position-fixed:hover{
+    transform:scale(1.1);
+}
+
+/* ===========================
+   ANIMATION
+=========================== */
+
+.card,
+img,
+.btn{
+    animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:991px){
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.navbar-brand{
+font-size:24px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+.hero h1{
+font-size:34px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.btn-lg{
+width:100%;
+margin-bottom:10px;
+}
+
+.card{
+margin-bottom:20px;
+}
+
+}
+
+@media(max-width:576px){
+
+.hero h1{
+font-size:28px;
+}
+
+section{
+padding:50px 0;
+}
+
+footer{
+text-align:center;
+}
+
+}
+
+/* ===========================
+   END
+=========================== */
