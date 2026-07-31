@@ -265,7 +265,15 @@ text-align:center;
 }
 
 }
+.navbar-brand{
+    margin-left: -15px;
+}
 
+.navbar-brand img{
+    width: 55px;
+    height: 55px;
+    margin-right: 8px;
+}
 /* ===========================
    END
 =========================== */
